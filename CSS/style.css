@@ -1,42 +1,40 @@
-body{
+html,
+body {
   margin: 0;
   padding: 0;
 }
-header{
+header {
   background-color: RGB(211, 58, 44);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
 }
 nav {
-  display: inline;
+  display: inline-block;
   position: relative;
-  left: 23%;
-  bottom: 75px;
-  
+  left: 250px;
+  bottom: 55px;
 }
 
-.logo-img{
+.logo-img {
   position: relative;
-  top: 50px;
+  top: 95px;
   left: 35px;
 }
 
-figure>img{
+figure > img {
   transform: rotate(-15deg);
-  box-shadow: black transparent 
+  box-shadow: black transparent;
 }
-li a figure img:hover{
+li a figure img:hover {
   transform: initial;
 }
-button{
-  position: relative;
-  bottom: 160px;
-  right: 20px;
+button {
+  margin-right: 40px;
   float: right;
   width: 150px;
   height: 55px;
-  background-color: brown;
+  background-color: RGB(211, 58, 44);
   border: 3px solid white;
   border-radius: 7px;
   color: white;
@@ -45,26 +43,65 @@ button{
   cursor: pointer;
 }
 
-li{
+li {
   display: inline-block;
 }
 
-figcaption{
-  color: white
+figcaption {
+  color: white;
 }
 
-li a{
+li a {
   text-decoration: none;
 }
-li a figure figcaption:hover{
+li a figure figcaption:hover {
   color: black;
   transform: initial;
 }
-section article a figure figcaption{
+section article a figure figcaption {
   display: inline-block;
   vertical-align: middle;
-
 }
-section article a figure img,figcaption {
+section article a figure img,
+figcaption {
   vertical-align: middle;
 }
+
+section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+section > a {
+  grid-area: inherit;
+  height: 550px;
+}
+
+.left {
+  background-color: brown;
+}
+
+.right {
+  background-color: crimson;
+}
+
+.left2 {
+  backgound-color: crimson;
+}
+
+.right2 {
+  background-color: brown;
+}
+
+.notes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.notes-articles {
+  padding: 35px 95px 0 35px;
+}
+
+.notes-articles:hover {
+ 
+}
+
