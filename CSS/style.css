@@ -1,14 +1,15 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: RGB(211, 58, 44);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
 }
+
 nav {
   display: inline-block;
   position: relative;
@@ -22,13 +23,15 @@ nav {
   left: 35px;
 }
 
-figure > img {
+figure>img {
   transform: rotate(-15deg);
   box-shadow: black transparent;
 }
+
 li a figure img:hover {
   transform: initial;
 }
+
 button {
   margin-right: 40px;
   float: right;
@@ -54,16 +57,18 @@ figcaption {
 li a {
   text-decoration: none;
 }
+
 li a figure figcaption:hover {
   color: black;
   transform: initial;
 }
+
 section article a figure figcaption {
   display: inline-block;
   vertical-align: middle;
 }
-section article a figure img,
-figcaption {
+
+section article a figure img, figcaption {
   vertical-align: middle;
 }
 
@@ -71,7 +76,8 @@ section {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-section > a {
+
+section>a {
   grid-area: inherit;
   height: 550px;
 }
@@ -101,7 +107,4 @@ section > a {
   padding: 35px 95px 0 35px;
 }
 
-.notes-articles:hover {
- 
-}
-
+.notes-articles:hover {}
