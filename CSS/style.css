@@ -35,7 +35,7 @@ li a figure img:hover {
 button {
   margin-right: 40px;
   float: right;
-  width: 150px;
+  width: auto;
   height: 55px;
   background-color: RGB(211, 58, 44);
   border: 3px solid white;
@@ -160,9 +160,25 @@ section>a {
   border: none;
   color: slateblue;
   height: 55px;
-  width: 250px;
+  width: auto;
 }
 
 .explore-btn:hover{
   color: RGB(211, 58, 44);;
 }
+
+.notes-two{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 95px;
+}
+
+.notes-articles-two{
+  padding: 35px;
+}
+
+.notes-design{
+  padding: 35px;
+}
+
+
