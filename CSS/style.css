@@ -1,184 +1,187 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html,
+body {
+	margin: 0;
+	padding: 0;
 }
 
 header {
-  background-color: RGB(211, 58, 44);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.3rem;
-  font-weight: bold;
+	background-color: RGB(211, 58, 44);
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 
 nav {
-  display: inline-block;
-  position: relative;
-  left: 250px;
-  bottom: 55px;
+	display: inline-block;
+	position: relative;
+	left: 250px;
+	bottom: 55px;
 }
 
 .logo-img {
-  position: relative;
-  top: 95px;
-  left: 35px;
+	position: relative;
+	top: 95px;
+	left: 35px;
 }
 
-figure>img {
-  transform: rotate(-15deg);
-  box-shadow: black transparent;
+figure > img {
+	transform: rotate(-15deg);
+	box-shadow: black transparent;
 }
 
 li a figure img:hover {
-  transform: initial;
+	transform: initial;
 }
 
 button {
-  margin-right: 40px;
-  float: right;
-  width: auto;
-  height: 55px;
-  background-color: RGB(211, 58, 44);
-  border: 3px solid white;
-  border-radius: 7px;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  cursor: pointer;
+	margin-right: 40px;
+	float: right;
+	width: auto;
+	height: 55px;
+	background-color: RGB(211, 58, 44);
+	border: 3px solid white;
+	border-radius: 7px;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 li {
-  display: inline-block;
+	display: inline-block;
 }
 
 figcaption {
-  color: white;
+	color: white;
 }
 
 li a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 li a figure figcaption:hover {
-  color: black;
-  transform: initial;
+	color: black;
+	transform: initial;
 }
 
 section article a figure figcaption {
-  display: inline-block;
-  vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-section article a figure img, figcaption {
-  vertical-align: middle;
+section article a figure img,
+figcaption {
+	vertical-align: middle;
 }
 
 section {
-  display: grid;
-  grid-template-columns: 50% 50%;
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
-section>a {
-  grid-area: inherit;
-  height: 550px;
+section > a {
+	grid-area: inherit;
+	height: 550px;
 }
 
 .left {
-  background-color: brown;
+	background-color: brown;
 }
 
 .right {
-  background-color: crimson;
+	background-color: crimson;
 }
 
 .left2 {
-  background-color: crimson;
+	background-color: crimson;
 }
 
 .right2 {
-  background-color: brown;
+	background-color: brown;
 }
 
 .notes {
-  display: grid;
-  grid-template-columns: auto auto auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
 
 .notes-articles {
-  padding: 35px 95px 0 35px;
+	padding: 35px 95px 0 35px;
 }
 
-.notes-articles:hover {}
-
-.fauna-section>a{
-  display: inline-block;
-  background-color: blue;
-  width: 45%;
-  height: auto;
-  margin: 50px;
-  padding: 35px;
-  border-radius: 7px;
+.notes-articles:hover {
 }
 
-.fauna>img{
-  position: relative;
-  left: 20%;
+.fauna-section > a {
+	display: inline-block;
+	background-color: blue;
+	width: 45%;
+	height: auto;
+	margin: 50px;
+	padding: 35px;
+	border-radius: 7px;
 }
 
-.fauna>a,h6,p{
-  text-align: center;
-  color: white;
+.fauna > img {
+	position: relative;
+	left: 20%;
 }
 
-.fauna>a>h6 p{
-  text-decoration: none;
+.fauna > a,
+h6,
+p {
+	text-align: center;
+	color: white;
 }
 
-.explore{
-  background-color: RGB(211, 58, 44);
-  width: auto;
-  margin: 0 35px 0 -200px;
-  border-radius: 7px;
-  padding: 65px;
+.fauna > a > h6 p {
+	text-decoration: none;
 }
 
-.explore>a>h1{
-  text-align: center;
-  color: white;
+.explore {
+	background-color: RGB(211, 58, 44);
+	width: auto;
+	margin: 0 35px 0 -200px;
+	border-radius: 7px;
+	padding: 65px;
 }
 
-.explore a img{
-  position: relative;
-  left: 30%;
+.explore > a > h1 {
+	text-align: center;
+	color: white;
 }
 
-.explore a{
-  text-decoration: none;
+.explore a img {
+	position: relative;
+	left: 30%;
 }
 
-.explore-btn{
-  background-color: white;
-  border: none;
-  color: slateblue;
-  height: 55px;
-  width: auto;
+.explore a {
+	text-decoration: none;
 }
 
-.explore-btn:hover{
-  color: RGB(211, 58, 44);;
+.explore-btn {
+	background-color: white;
+	border: none;
+	color: slateblue;
+	height: 55px;
+	width: auto;
 }
 
-.notes-two{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 95px;
+.explore-btn:hover {
+	color: RGB(211, 58, 44);
 }
 
-.notes-articles-two{
-  padding: 35px;
+.notes-two {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 95px;
 }
 
-.notes-design{
-  padding: 35px;
+.notes-articles-two {
+	padding: 35px;
 }
 
-
+.notes-design {
+	padding: 35px;
+}
