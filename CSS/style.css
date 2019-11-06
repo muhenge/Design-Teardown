@@ -423,6 +423,12 @@ p {
   color: white;
 }
 
+li.footer-li a {
+  color: white;
+  margin-inline: 10px;
+  font-size: 18px;
+}
+
 .sec-person-of-the-week .art-person-of-the-week a {
   color: #006fc6;
 }
@@ -524,7 +530,6 @@ section.design {
 }
 
 .design-image {
-  display: inline-block;
   float: right;
   padding-right: 45px;
 }
@@ -559,26 +564,16 @@ footer {
 }
 
 footer h2 {
-  color: white;
-  font-size: medium;
-  position: relative;
-  left: 35%;
-}
-
-footer h2 {
   display: inline;
   font-size: 1.1rem;
+  color: white;
+  position: relative;
+  left: 35%;
 }
 
 .footer-links {
   text-align: center;
   margin-top: 85px;
-}
-
-li.footer-li a {
-  color: white;
-  margin-inline: 10px;
-  font-size: 18px;
 }
 
 ul.footer-links {
