@@ -26,5 +26,5 @@ Only clone to you local and open it in your code editor
 [the preview](https://muhenge.github.io/Design-Teardown/index.html)
 
 # Contributor
-[Herve](https://github.com/muhenge)
+[Herve](https://github.com/muhenge) and
 [Ugochukwu](https://github.com/ugochukwuomeje)
